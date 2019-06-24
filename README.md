@@ -1,15 +1,16 @@
 # sequential-planning
-> TODO: description
+> Sequential ASP-based planning in the *asprilo* framework
 
 This project implements a sequential planning approach to the [**asprilo**](<https://potassco.org/asprilo>) framework.
 
-TODO: general idea
+The general idea is to distribute the planning effort into several tasks planning only for one robot each.
+However, to avoid conflicts between the robots all already found plans are included as an additional input so that the robots have to plan around the other robots who already found their plans earlier.
 
 ## Encodings
 
 All encodings used in the project are incremental encodings.
 
-`./parallel_encodings/` contains encodings from the [**development branch**](<https://github.com/potassco/asprilo-encodings/tree/develop>)  of the asprilo encodings repository.
+`./parallel_encodings/` contains encodings from the [**development branch**](<https://github.com/potassco/asprilo-encodings/tree/develop>) of the *asprilo* encodings repository.
 
 `./sequential_encodings/` contains modified version of the parallel encodings to work for the sequential approach.
 
