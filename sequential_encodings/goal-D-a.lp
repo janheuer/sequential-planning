@@ -22,9 +22,6 @@
 :- position(S,C,t), carries(R1,S,_), planning(R1),
    position(R2,C,T), carries(R2,_,T), not planning(R2),
    T=t..H, planLength(H), query(t).
-:- position(S,C,t), carries(R1,S,_), planning(R1),
-   position(R2,C,T), putdown(R2,_,T), not planning(R2),
-   T=t..H, planLength(H), query(t).
 
 % planning robots cant finish in highway nodes
 :- position(R,C,t), planning(R), highway(C), query(t).
