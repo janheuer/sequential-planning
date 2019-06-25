@@ -220,7 +220,7 @@ init(object(product,2),value(on,(31,8))).
 init(object(product,3),value(on,(10,1))).
 init(object(product,3),value(on,(11,6))).
 init(object(product,3),value(on,(12,8))).
-init(object(product,3),value(on,(13,10))).
+init(object(product,3),value(on,(15,10))).
 init(object(product,3),value(on,(14,8))).
 init(object(product,4),value(on,(14,7))).
 init(object(product,4),value(on,(18,9))).

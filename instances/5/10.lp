@@ -207,7 +207,7 @@ init(object(node,116),value(at,(12,9))).
 init(object(node,117),value(at,(13,9))).
 init(object(pickingStation,1),value(at,(5,1))).
 init(object(pickingStation,2),value(at,(10,1))).
-init(object(product,1),value(on,(13,1))).
+init(object(product,1),value(on,(12,1))).
 init(object(product,1),value(on,(15,2))).
 init(object(product,1),value(on,(16,1))).
 init(object(product,1),value(on,(21,1))).

@@ -215,7 +215,7 @@ init(object(product,1),value(on,(26,1))).
 init(object(product,2),value(on,(2,4))).
 init(object(product,2),value(on,(3,1))).
 init(object(product,2),value(on,(4,2))).
-init(object(product,2),value(on,(26,1))).
+init(object(product,2),value(on,(27,1))).
 init(object(product,2),value(on,(31,8))).
 init(object(product,3),value(on,(10,1))).
 init(object(product,3),value(on,(11,6))).

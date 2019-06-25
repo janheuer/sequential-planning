@@ -220,7 +220,7 @@ init(object(product,2),value(on,(31,8))).
 init(object(product,3),value(on,(10,1))).
 init(object(product,3),value(on,(11,6))).
 init(object(product,3),value(on,(12,8))).
-init(object(product,3),value(on,(13,10))).
+init(object(product,3),value(on,(8,10))).
 init(object(product,3),value(on,(14,8))).
 init(object(product,4),value(on,(14,7))).
 init(object(product,4),value(on,(18,9))).
@@ -279,4 +279,4 @@ init(object(robot,2),value(at,(2,9))).
 init(object(robot,3),value(at,(3,9))).
 init(object(robot,4),value(at,(4,9))).
 init(object(robot,5),value(at,(5,9))).
-assign(robot(1),shelf(13),station(1)). assign(robot(2),shelf(4),station(2)). assign(robot(4),shelf(11),station(1)). assign(robot(3),shelf(24),station(1)). assign(robot(5),shelf(7),station(1)). 
+assign(robot(1),shelf(13),station(1)). assign(robot(2),shelf(4),station(2)). assign(robot(4),shelf(11),station(1)). assign(robot(3),shelf(24),station(1)). assign(robot(5),shelf(7),station(1)).
