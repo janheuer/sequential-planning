@@ -6,6 +6,10 @@ This project implements a sequential planning approach to the [**asprilo**](<htt
 The general idea is to distribute the planning effort into several tasks planning only for one robot each.
 However, to avoid conflicts between the robots all already found plans are included as an additional input so that the robots have to plan around the other robots who already found their plans earlier.
 
+For more detail see the project report:
+
+[Jan Heuer: Sequential ASP-based Planning, 2018](https://github.com/janheuer/sequential-planning/files/14181594/paper.pdf)
+
 ## Encodings
 
 All encodings used in the project are incremental encodings.
